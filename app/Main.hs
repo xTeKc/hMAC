@@ -11,7 +11,7 @@ main = someFunc
 parse :: 
 parse = strOption
 	where
-		strOption :: 
+		strOption :: IsString s
 		strOption =
 
 getArgs :: [String] -> [String] -> [String] -> [String] -> [String]
