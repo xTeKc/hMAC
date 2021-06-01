@@ -3,6 +3,7 @@ module Main where
 import Lib
 import System.Process
 import Options.Applicative
+import Data.Semigroup hiding (option)
 
 main :: IO ()
 main = someFunc
