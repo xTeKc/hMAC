@@ -9,7 +9,8 @@ main = someFunc
 
 
 getArgs :: [String] -> [String] -> [String] -> [String] -> [String]
-parser = Options.Applicative
+parser = 
+
 
 
 changeMac :: [String] -> [String]
