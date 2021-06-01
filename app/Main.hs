@@ -9,7 +9,7 @@ main = someFunc
 
 
 parser ::
-parser =
+parser = opt
 
 
 getArgs :: [String] -> [String] -> [String] -> [String] -> [String]
