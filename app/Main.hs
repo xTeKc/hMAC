@@ -8,7 +8,7 @@ main :: IO ()
 main = someFunc
 
 
-getArgs ::
+getArgs :: [String] 
 
 
 
