@@ -11,7 +11,7 @@ main = someFunc
 parse :: 
 parse = option
 	where
-		option :: ReadM a -> Mod OptionFields a
+		option :: ReadM a -> Mod OptionFields a ->
 
 
 getArgs :: [String] -> [String] -> [String] -> [String] -> [String]
