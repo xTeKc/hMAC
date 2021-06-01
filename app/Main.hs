@@ -8,11 +8,11 @@ main :: IO ()
 main = someFunc
 
 
-parse :: 
+parse :: [String]
 parse = strOption
 	where
 		strOption :: IsString s => Mod OptionFields s -> Parser s
-		strOption = "-a" "--adapter"
+		strOption = "-a" "--adapter" 
 
 
 
