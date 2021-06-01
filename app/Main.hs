@@ -12,7 +12,7 @@ getArgs :: [String] -> [String] -> [String] -> [String] -> [String]
 
 
 
-changeMac ::
+changeMac :: [String]
 
 
 
