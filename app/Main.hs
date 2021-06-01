@@ -2,6 +2,7 @@ module Main where
 
 import Lib
 import System.Process
+import Control.Applicative
 import Options.Applicative
 import Data.Semigroup hiding (option)
 import Data.String (fromString, IsString)
