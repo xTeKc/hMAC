@@ -11,6 +11,7 @@ main = someFunc
 parser ::
 parser = opt
 	where
+		opt ::
 
 
 getArgs :: [String] -> [String] -> [String] -> [String] -> [String]
