@@ -8,10 +8,10 @@ main :: IO ()
 main = someFunc
 
 
-parser ::
-parser = opt
+parser :: 
+parser = option
 	where
-		opt ::
+		option ::
 
 
 getArgs :: [String] -> [String] -> [String] -> [String] -> [String]
