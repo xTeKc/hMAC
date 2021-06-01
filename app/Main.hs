@@ -8,7 +8,7 @@ main :: IO ()
 main = someFunc
 
 
-parse :: [String]
+parse :: [String] ->
 parse = strOption
 	where
 		strOption :: IsString s => Mod OptionFields s -> Parser s
