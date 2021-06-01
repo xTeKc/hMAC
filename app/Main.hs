@@ -9,8 +9,8 @@ main = someFunc
 
 
 getArgs :: [String] -> [String] -> [String] -> [String] -> [String]
-parser = 
-
+parser = opt
+	
 
 
 changeMac :: [String] -> [String]
