@@ -4,6 +4,7 @@ import Lib
 import System.Process
 import Options.Applicative
 import Data.Semigroup hiding (option)
+import Data.String (fromString, IsString)
 
 main :: IO ()
 main = someFunc
