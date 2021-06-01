@@ -9,10 +9,10 @@ main = someFunc
 
 
 parse :: 
-parse = option
+parse = strOption
 	where
-		option :: 
-		option =
+		strOption :: 
+		strOption =
 
 getArgs :: [String] -> [String] -> [String] -> [String] -> [String]
 
