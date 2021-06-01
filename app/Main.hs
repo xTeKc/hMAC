@@ -8,3 +8,7 @@ main :: IO ()
 main = someFunc
 
 getArgs ::
+
+
+
+changeMac ::
