@@ -4,16 +4,15 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 76e29b2db6c87daf3969f124ff872c4b3962e9dcdb2e499bcce274712d4f8830
+-- hash: 8b9b0a14023d9eaef9803da2f387fa9d70f37279b1db0a48b1bef94197108465
 
 name:           hMAC
 version:        0.1.0.0
 description:    Please see the README on GitHub at <https://github.com/githubuser/hMAC#readme>
-homepage:       https://github.com/githubuser/hMAC#readme
-bug-reports:    https://github.com/githubuser/hMAC/issues
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2021 Author name here
+homepage:       https://github.com/xTeKc/hMAC#readme
+bug-reports:    https://github.com/xTeKc/hMAC/issues
+author:         xTeKc
+copyright:      2021 xTeKc
 license:        BSD3
 license-file:   LICENSE
 build-type:     Simple
@@ -23,7 +22,7 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/githubuser/hMAC
+  location: https://github.com/xTeKc/hMAC
 
 library
   exposed-modules:
