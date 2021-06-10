@@ -1,7 +1,7 @@
 name:                hMAC
 version:             0.1.0.0
 github:              "xTeKc/hMAC"
-license:             BSD3
+license:             Apache-2.0
 author:              "xTeKc"
 maintainer:          ""
 copyright:           "2021 xTeKc"
