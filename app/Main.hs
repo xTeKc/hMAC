@@ -1,7 +1,7 @@
 module Main where
 
-import Lib
+import MACmanager
 
 main :: IO ()
-main = someFunc
+main = manageMAC
 
