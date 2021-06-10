@@ -7,6 +7,7 @@ import Control.Applicative
 import Options.Applicative
 import Data.Semigroup hiding (option)
 import Data.String (fromString, IsString)
+import Data.Aeson.Types
 
 someFunc :: IO ()
 someFunc = putStrLn "someFunc"
