@@ -12,8 +12,8 @@ manageMAC = putStrLn "manageMAC"
 
 
 
-changeMac :: [String] -> [String]
+changeMac :: 
 
 
 
-getCurrentMac :: [String] -> [String]
+getCurrentMac :: 
