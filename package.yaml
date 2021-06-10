@@ -36,6 +36,7 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - hMAC
+    - aeson
 
 tests:
   hMAC-test:
@@ -47,3 +48,4 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - hMAC
+    - aeson
