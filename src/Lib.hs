@@ -24,4 +24,4 @@ changeMac :: [String] -> [String]
 
 
 
-getCurrentMac ::
+getCurrentMac :: [String] -> [String]
