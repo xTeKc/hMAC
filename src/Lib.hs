@@ -16,4 +16,4 @@ changeMac :: (a -> Parser b) -> a -> Result b
 
 
 
-getCurrentMac :: 
+getCurrentMac :: (a -> Parser b) -> a -> Result b
