@@ -12,7 +12,7 @@ manageMAC = putStrLn "manageMAC"
 
 
 
-changeMac :: 
+changeMac :: (a -> Parser b) -> a -> Result b
 
 
 
