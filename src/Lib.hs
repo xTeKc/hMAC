@@ -1,23 +1,14 @@
 module Lib
-    ( infoMAC
+    ( manageMAC
     ) where
 
 import System.Process
-import Control.Applicative
-import Options.Applicative
-import Data.Semigroup hiding (option)
-import Data.String (fromString, IsString)
 import Data.Aeson.Types
 
-infoMAC :: IO ()
-infoMAC = putStrLn "infoMAC"
+manageMAC :: IO ()
+manageMAC = putStrLn "manageMAC"
 
 
---parse :: [String] -> [String]
-parse = strOption
-    where
-        strOption :: IsString s => Mod OptionFields s -> Parser s
-        strOption = "-a" "--adapter" 
 
 
 
