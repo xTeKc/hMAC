@@ -13,7 +13,7 @@ homepage:       https://github.com/xTeKc/hMAC#readme
 bug-reports:    https://github.com/xTeKc/hMAC/issues
 author:         xTeKc
 copyright:      2021 xTeKc
-license:        BSD3
+license:        Apache-2.0
 license-file:   LICENSE
 build-type:     Simple
 extra-source-files:
@@ -26,13 +26,14 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
+      MACmanager
   other-modules:
       Paths_hMAC
   hs-source-dirs:
       src
   build-depends:
       base >=4.7 && <5
+      aeson
   default-language: Haskell2010
 
 executable hMAC-exe
@@ -45,6 +46,7 @@ executable hMAC-exe
   build-depends:
       base >=4.7 && <5
     , hMAC
+    , aeson
   default-language: Haskell2010
 
 test-suite hMAC-test
