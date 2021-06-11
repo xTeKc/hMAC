@@ -9,6 +9,8 @@ import Web.Scotty
 manageMAC :: IO ()
 manageMAC = putStrLn "manageMAC"
 
+
+
 getCurrentMac :: String -> RoutePattern
 getCurrentMac = get (getCurrentMac "^f(.*)r$") $ do
     path <- param "0"
