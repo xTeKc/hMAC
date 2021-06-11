@@ -12,9 +12,9 @@ manageMAC = putStrLn "manageMAC"
 
 
 
-changeMac :: 
+--changeMac :: 
 changeMac = 
 
 
-getCurrentMac :: 
+--getCurrentMac :: 
 getCurrentMac = 
