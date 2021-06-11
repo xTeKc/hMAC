@@ -9,13 +9,10 @@ import Web.Scotty
 manageMAC :: IO ()
 manageMAC = putStrLn "manageMAC"
 
-
-
-
+getCurrentMac :: 
+getCurrentMac = 
 
 --changeMac :: 
 changeMac = 
 
 
---getCurrentMac :: 
-getCurrentMac = 
