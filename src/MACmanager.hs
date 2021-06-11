@@ -12,9 +12,9 @@ manageMAC = putStrLn "manageMAC"
 
 
 
-changeMac :: (a -> Parser b) -> a -> Result b
+changeMac :: 
 changeMac = 
 
 
-getCurrentMac :: (a -> Parser b) -> a -> Result b
+getCurrentMac :: 
 getCurrentMac = 
