@@ -10,7 +10,7 @@ manageMAC = putStrLn "manageMAC"
 
 
 
-getCurrentMac :: String -> RoutePattern
+--getCurrentMac :: String -> 
 getCurrentMac = 
 
 --generateNewMAC :: String ->
