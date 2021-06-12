@@ -16,8 +16,8 @@ getCurrentMac = get (getCurrentMac "^f(.*)r$") $ do
     cap <- param "1"
     text $ mconcat ["Path: ", path, "\nCapture: ", cap]
 
---generateNewMAC ::
-generateNewMAC =
+--generateNewMAC :: 
+generateNewMAC = "_ _:_ _:_ _:_ _:_ _:_ _:"
 
 --changeMac :: 
 changeMac = 
