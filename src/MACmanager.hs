@@ -19,7 +19,7 @@ getCurrentMac = get (getCurrentMac "^f(.*)r$") $ do
 --generateNewMAC :: 
 generateNewMAC = "_ _:_ _:_ _:_ _:_ _:_ _:"
 
---changeMac :: 
+--changeMac :: String -> 
 changeMac = 
 
 
