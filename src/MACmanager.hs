@@ -17,7 +17,7 @@ getCurrentMac = get (getCurrentMac "^f(.*)r$") $ do
     text $ mconcat ["Path: ", path, "\nCapture: ", cap]
 
 --generateNewMAC :: String ->
-generateNewMAC = "_ _:_ _:_ _:_ _:_ _:_ _:"
+generateNewMAC = "_ _:_ _:_ _:_ _:_ _:_ _"
 
 --changeMac :: String -> 
 changeMac = 
