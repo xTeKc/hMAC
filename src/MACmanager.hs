@@ -2,8 +2,7 @@ module MACmanager
     ( manageMAC
     ) where
 
-import Data.Aeson.Types
-import Web.Scotty
+import qualified process.System.Process as psp
 
 manageMAC :: IO ()
 manageMAC = putStrLn "manageMAC"
