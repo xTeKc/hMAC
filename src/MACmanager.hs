@@ -4,6 +4,6 @@ module MACmanager
 
 import process
 
-manageMAC = putStrLn "manageMAC"
+manageMAC = putStrLn "This is my MAC"
 
 
