@@ -2,9 +2,8 @@ module MACmanager
     ( manageMAC
     ) where
 
-import qualified process.System.Process as psp
+import process
 
-manageMAC :: IO ()
 manageMAC = putStrLn "manageMAC"
 
 
