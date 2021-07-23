@@ -3,6 +3,7 @@ module MACmanager
     ) where
 
 import System.Process
+import System.Console.GetOpt
 
 manageMAC = putStrLn "This is my MAC"
 
