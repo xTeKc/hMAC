@@ -2,9 +2,10 @@ module MACmanager
     ( manageMAC
     ) where
 
-import System.Process
-import System.Console.GetOpt
 
+
+manageMAC :: IO ()
 manageMAC = putStrLn "This is my MAC"
+
 
 

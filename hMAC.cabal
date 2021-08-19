@@ -1,10 +1,8 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.33.0.
+-- This file has been generated from package.yaml by hpack version 0.34.4.
 --
 -- see: https://github.com/sol/hpack
---
--- hash: 8b9b0a14023d9eaef9803da2f387fa9d70f37279b1db0a48b1bef94197108465
 
 name:           hMAC
 version:        0.1.0.0
@@ -33,7 +31,8 @@ library
       src
   build-depends:
       base >=4.7 && <5
-    , process >=1.6.12.0 && <2
+    , hsoptions
+    , time
   default-language: Haskell2010
 
 executable hMAC-exe
@@ -46,7 +45,8 @@ executable hMAC-exe
   build-depends:
       base >=4.7 && <5
     , hMAC
-    , process >=1.6.12.0 && <2
+    , hsoptions
+    , time
   default-language: Haskell2010
 
 test-suite hMAC-test
@@ -60,5 +60,6 @@ test-suite hMAC-test
   build-depends:
       base >=4.7 && <5
     , hMAC
-    , process >=1.6.12.0 && <2
+    , hsoptions
+    , time
   default-language: Haskell2010
